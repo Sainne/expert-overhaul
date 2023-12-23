@@ -33,15 +33,25 @@ Making the game harder by locking items and upgrades behind challenges, mini-bos
 
 ## Credits and inspiration ✨
 The main reason for this datapack is the video on the difficulty of minecraft from "[JustCornet](https://www.youtube.com/@JustCornet)"(Is in spanish):
+
 [MINECRAFT y su DIFICULTAD](https://www.youtube.com/watch?v=rtCZl-_GAq0)
+
 The map "Final Paradox" and more specifically the zone "Serpent's Corpse" is an inspiration for the regeneration overhaul:
+
 [Final Paradox on the Minecraft Forum](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/maps/3166897-ctm-final-paradox-map-release-english-espanol-1)
+
 The Permadeath series done by ElRichMC is an inspiration for the progressive difficulty as well as some of the mobs and enemies.
+
 [First episode of Permadeath on ElRichMC's channel](https://www.youtube.com/watch?v=aZSX5ik0Z6o)
+
 The expert mode coming from Terraria and the Revengeance mode from the Calamity mod also inspire the progressive difficulty and some of the items.
+
 [Terraria's steam page](https://store.steampowered.com/app/105600/Terraria/)
+
 [Calamity Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072)
+
 And lastly my own experience!, in playing UHC and Hardcore worlds, and seeing mechanics that are more dominant than others in PvE.
+
 ### Planned 🧠
 <details>
   <summary>CLICK</summary>
