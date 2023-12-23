@@ -1,0 +1,23 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{display:{Name:'[{\"text\":\"🛡\",\"italic\":false},{\"translate\":\"item.minecraft.diamond_helmet\",\"italic\":false}]'},sainne.expert_overhaul.v1:true,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;1846534995,939999680,-1487203190,69784288],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-1089524452,2131577941,-1557804024,-1282968641],Slot:\"head\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.02,Operation:1,UUID:[I;-2145676479,1077888603,-1234202427,-453589479],Slot:\"head\"}]}",
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "nbt": "{sainne.expert_overhaul.v1:true}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+  

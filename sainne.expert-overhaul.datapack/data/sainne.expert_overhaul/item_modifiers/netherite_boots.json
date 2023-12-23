@@ -1,0 +1,23 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{display:{Name:'[{\"text\":\"🛡\",\"italic\":false},{\"translate\":\"item.minecraft.netherite_boots\",\"italic\":false}]'},sainne.expert_overhaul.v1:true,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;2140519592,-1220001295,-1628151258,1141704281],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;-1281631135,-59029844,-1660427556,-706909781],Slot:\"feet\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;846568767,219695705,-1168570023,-1303675179],Slot:\"feet\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.03,Operation:1,UUID:[I;-1390280661,613434661,-1508653850,-1406360150],Slot:\"feet\"}]}",
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "nbt": "{sainne.expert_overhaul.v1:true}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+  

@@ -1,0 +1,23 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{display:{Name:'[{\"text\":\"🛡\",\"italic\":false},{\"translate\":\"item.minecraft.diamond_leggings\",\"italic\":false}]'},sainne.expert_overhaul.v1:true,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;-2068013353,814367058,-1285627173,826176081],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-2129237386,-295616335,-1705499067,-1614200513],Slot:\"legs\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.02,Operation:1,UUID:[I;2053581708,1971078556,-1370351796,1522486037],Slot:\"legs\"}]}",
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "legs": {
+                  "nbt": "{sainne.expert_overhaul.v1:true}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+  

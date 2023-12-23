@@ -1,0 +1,22 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'[{\"text\":\"🛡\",\"italic\":false},{\"translate\":\"item.minecraft.iron_chestplate\",\"italic\":false}]'},sainne.expert_overhaul.v1:true,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;1268930449,-522762796,-1480398064,-1510258829],Slot:\"chest\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.01,Operation:1,UUID:[I;-1488584766,-1844033659,-2059057308,-1505269391],Slot:\"chest\"}]}",
+    "conditions": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "chest": {
+                "nbt": "{sainne.expert_overhaul.v1:true}"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]

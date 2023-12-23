@@ -1,0 +1,23 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{display:{Name:'[{\"text\":\"🛡\",\"italic\":false},{\"translate\":\"item.minecraft.netherite_helmet\",\"italic\":false}]'},sainne.expert_overhaul.v1:true,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;91650772,-1573367830,-1445837791,1191911613],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;2020481600,1925597143,-1429879731,839673875],Slot:\"head\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-1300134067,213207121,-1814944284,363542449],Slot:\"head\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.03,Operation:1,UUID:[I;1572177058,41633339,-1536798845,-1400386587],Slot:\"head\"}]}",
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "nbt": "{sainne.expert_overhaul.v1:true}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+  

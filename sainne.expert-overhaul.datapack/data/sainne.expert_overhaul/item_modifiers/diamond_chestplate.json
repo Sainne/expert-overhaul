@@ -1,0 +1,22 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'[{\"text\":\"🛡\",\"italic\":false},{\"translate\":\"item.minecraft.diamond_chestplate\",\"italic\":false}]'},sainne.expert_overhaul.v1:true,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;-1592715028,1371556234,-1325984546,542323842],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-407442671,-1325186134,-1328014189,-961632180],Slot:\"chest\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.02,Operation:1,UUID:[I;509087958,-1759359208,-1768784694,-297714633],Slot:\"chest\"}]}",
+    "conditions": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "chest": {
+                "nbt": "{sainne.expert_overhaul.v1:true}"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]

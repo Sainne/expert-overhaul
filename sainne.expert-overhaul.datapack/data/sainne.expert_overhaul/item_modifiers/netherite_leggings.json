@@ -1,0 +1,23 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{display:{Name:'[{\"text\":\"🛡\",\"italic\":false},{\"translate\":\"item.minecraft.netherite_leggings\",\"italic\":false}]'},sainne.expert_overhaul.v1:true,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;364048344,1392657415,-1434582136,1536002467],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;-540028907,780488040,-1493958959,-1152912204],Slot:\"legs\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-1222779788,-1167111165,-1816415812,1911026290],Slot:\"legs\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.03,Operation:1,UUID:[I;-704662986,56902181,-1205196976,-243607909],Slot:\"legs\"}]}",
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "legs": {
+                  "nbt": "{sainne.expert_overhaul.v1:true}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+  

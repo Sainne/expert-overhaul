@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "G": {
+        "item": "minecraft:gilded_blackstone"
+      },
+      "B": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "pattern": [
+      " B ",
+      "GGG"
+    ],
+    "result": {
+      "item": "minecraft:brewing_stand"
+    }
+  }

@@ -1,0 +1,103 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{sainne.expert_overhaul.nerfed:true}",
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "chest": {
+                  "items": [
+                    "minecraft:elytra"
+                  ],
+                  "nbt": "{sainne.expert_overhaul.nerfed:true}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": "Water damages you",
+          "color": "blue"
+        },
+        {
+          "text": "In the nether you burn",
+          "color": "red"
+        },
+        {
+            "text" : "Above y=320 you start losing durability quicker",
+            "color" : "yellow"
+        }
+      ],
+      "replace": false,
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "chest": {
+                  "items": [
+                    "minecraft:elytra"
+                  ],
+                  "nbt": "{sainne.expert_overhaul.nerfed:true}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "name": "armor",
+          "amount": -2,
+          "operation": "addition",
+          "slot": "chest"
+        },
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "name": "armortough",
+          "amount": -2,
+          "operation": "addition",
+          "slot": "chest"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "chest": {
+                  "items": [
+                    "minecraft:elytra"
+                  ],
+                  "nbt": "{sainne.expert_overhaul.nerfed:true}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+  
+  

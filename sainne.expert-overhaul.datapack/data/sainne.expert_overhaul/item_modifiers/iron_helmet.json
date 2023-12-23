@@ -1,0 +1,22 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'[{\"text\":\"🛡\",\"italic\":false},{\"translate\":\"item.minecraft.iron_helmet\",\"italic\":false}]'},sainne.expert_overhaul.v1:true,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;-1422218085,784813502,-1659234664,914649920],Slot:\"head\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.01,Operation:1,UUID:[I;188721760,1978223295,-1674356829,-1680138774],Slot:\"head\"}]}",
+    "conditions": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "head": {
+                "nbt": "{sainne.expert_overhaul.v1:true}"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]

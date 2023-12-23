@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "E": {
+        "item": "minecraft:ender_eye"
+      },
+      "G": {
+        "item": "minecraft:glass"
+      },
+      "N": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "pattern": [
+      "GGG",
+      "GNG",
+      "GEG"
+    ],
+    "result": {
+      "item": "minecraft:end_crystal"
+    }
+  }

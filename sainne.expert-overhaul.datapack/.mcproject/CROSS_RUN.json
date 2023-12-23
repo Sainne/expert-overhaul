@@ -1,0 +1,19 @@
+[
+  [
+    "lastUpdate",
+    "Thu Dec 21 2023 21:38:20 GMT-0300 (hora de verano de Chile)"
+  ],
+  [
+    "INTERNAL/VIRTUAL_FILE_SYSTEM",
+    {
+      "src\\test.mc": {
+        "data\\minecraft\\tags\\functions\\load.json": 751285482,
+        "data\\minecraft\\tags\\functions\\tick.json": 672043705,
+        "data\\test\\functions\\load.mcfunction": 1541528438,
+        "data\\test\\functions\\tick.mcfunction": 2903158313,
+        "data\\test\\functions\\flame_circle.mcfunction": 1019466320,
+        "data\\test\\functions\\as_players.mcfunction": 2017111723
+      }
+    }
+  ]
+]
