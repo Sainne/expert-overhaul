@@ -31,7 +31,11 @@ Making the game harder by locking items and upgrades behind challenges, mini-bos
 
 </details>
 
-## Credits and inspiration ✨
+## Credits and inspiration ✨\
+This datapack is built with the help of mc-build!, go show it some love:
+
+[MC-Build's Github](https://github.com/mc-build)
+
 The main reason for this datapack is the video on the difficulty of minecraft from "[JustCornet](https://www.youtube.com/@JustCornet)"(Is in spanish):
 
 [MINECRAFT y su DIFICULTAD](https://www.youtube.com/watch?v=rtCZl-_GAq0)
